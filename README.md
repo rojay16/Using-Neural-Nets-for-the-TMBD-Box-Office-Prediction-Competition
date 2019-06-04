@@ -17,4 +17,4 @@ sci-kit learn function GridSearchCV(). Neither the random forest in sci-kit lear
 net had the lowest cross validated error.
 
 The data set used in this script is contained in a zip file in this repository. For further infromation on the data set and how it was processed see
-the repositiory Kaggle Competition TMDB Box Office Prediction
+the repositiory Kaggle Competition TMDB Box Office Prediction in R
