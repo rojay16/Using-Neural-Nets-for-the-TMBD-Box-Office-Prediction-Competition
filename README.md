@@ -8,8 +8,8 @@ activation units utilizng the ReLu activation unit. To prevent overfitting both 
 for each hidden layer and the probability a unit is dropped in 0.35. Each layers also uses L2 regularization with a penalty parameter of 0.01.
 The neural net is implemented using Keras. While the data used has already been pre-processed, the factor variables are converted into numeric variables
 using one-hot encode using the pandas method get_dummies(). Scaling the continous variables is also done using the sci-kit learn function 
-StandarScaler(), which normalizes the continous variables to their Z (so all the variables have roughly the same scale) so that convergence 
-of the optimzation algorithm converges more quickly. 
+StandarScaler(), which normalizes the continous variables to their Z scores(so all the variables have roughly the same scale) so that convergence 
+of the optimzation algorithm occurs more quickly. 
 
 In this script a random forest method is also used to predict on the same data. The random forest method is implmented through sci-kit learn
 function RandomForestRegressor() and the optimal hyperparamters (minimum number of values in a leaf, and the number of variables used at each split) are found using the 
